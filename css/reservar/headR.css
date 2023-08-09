@@ -1,14 +1,76 @@
+/* main{
+    width: ;
+} */
 .cabeza{
     margin-top: 40px;
-    border:solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 .cabeI{
-    border:solid 1px;
-    width: 66666660px;
+    width: 100px;
+    text-align: center;
 }
 .cabeI img{
     width: 50%;
+}
+.cabeza h2{
+    margin:8px;
+    font-size: 35px;
+}
+.cabeza p{
+    margin:3px;
+    font-size: 18px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr .5fr;
+}
+.containerCard{
+    border:solid 1px;
+    text-align: center;
+}
+.headCard{
+    border:solid 1px;
+
+}
+.subHead div:first-child{
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+    align-items: center;
+    justify-items: center;
+    column-gap: 10px;
+}
+.la{
+    width: 30px;
+}
+.mac{
+    width: 90px;
+}
+
+.iphone{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50px;
+    background-color: #0050f5;
+}
+.iphone img{
+    width: 100%;
+}
+.ipad {
+    width: 50px;
+}
+.ra{
+    width: 30px;
+}
+
+.subHead div:last-child{
+    border:solid 1px;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(5, 1fr);
 }
