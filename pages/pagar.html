@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/pagar/header.css">
+    <link rel="stylesheet" href="../css/pagar/pagarText.css">
+    <link rel="stylesheet" href="../css/pagar/pagar.css">
     <title>Repair Express - Pagar</title>
 </head>
 
@@ -24,6 +26,97 @@
         </div>
     </header>
     <hr class="hr-header">
+
+    <main>
+        <div class="pagar-text">
+            <img src="../assets/images/Trazado 86.png" alt="" class="pagar__icon">
+            <h1 class="pagar__title">Pagar</h1>
+            <p class="pagar__text">Llena tus datos de facturación. Si ya los tienes registrado en tu Repair ID el
+                sistema los ingresará automáticamente.</p>
+        </div>
+        <section class="pagar">
+            <div class="pagar__contact">
+                <div class="pagar__contact-divTxt">
+                    <h2 class="contact-div__title">Contacto de Facturación</h2>
+                    <p class="contact-div__text">Si lo tienes registrado en tu Repair ID el sistema los llenará
+                        automáticamente</p>
+                </div>
+                <form class="pagar__contact-Form">
+                    <label class="contact-form__label" for="">Primer Nombre
+                        <input type="text">
+                    </label>
+                    <label class="contact-form__label" for="">Segundo Nombre
+                        <input type="text">
+                    </label>
+                    <label class="contact-form__label" for="">Código de Área
+                        <input type="text">
+                    </label>
+                    <label class="contact-form__label" for="">Número de Contacto
+                        <input type="text">
+                    </label>
+                    <label class="contact-form__label" for="">Correo Electrónico
+                        <input type="text">
+                    </label>
+                </form>
+            </div>
+            <div>
+                <div>
+                    <h2>Métodos de pago disponible</h2>
+                    <div>
+                        <img src="../assets/images/Icon metro-visa.png" alt="">
+                        <img src="../assets/images/Icon metro-mastercard.png" alt="">
+                        <img src="../assets/images/Icon payment-american-express.png" alt="">
+                    </div>
+                </div>
+                <form action="">
+                    <label for="">Número de tarjeta
+                        <input type="text">
+                    </label>
+                    <label for="">CVV
+                        <input type="text">
+                    </label>
+                    <label for="">Fecha de expiración
+                        <span>
+                            <img src="../assets/images/Icon awesome-calendar-alt.png" alt="">
+                        </span>
+                    </label>
+                </form>
+            </div>
+            <div>
+                <div>
+                    <h2>Tu Orden</h2>
+                    <hr>
+                    <div>
+                        <p>Viernes 23 de Abril del 2021, 6:00 PM</p>
+                        <div>
+                            <p>1x Cambio de Pantalla iPhone X</p>
+                            <p>$600,000 COP</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <div>
+                            <p>Subtotal</p>
+                            <p>$486,000 COP</p>
+                        </div>
+                        <div>
+                            <p>IVA (19%)</p>
+                            <p>$114,000 COP</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Total</p>
+                        <p>$600,000 COP</p>
+                    </div>
+                </div>
+                <div>
+                    <p>Recuerda que el sistema hará una retención del dinero, donde se liberará solamente cuando la reparación este totalmente realizada</p>
+                    <button>Continuar</button>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
