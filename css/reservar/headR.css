@@ -1,6 +1,14 @@
 .cabeza{
+    margin-top: 40px;
     border:solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.cabeI{
+    border:solid 1px;
+    width: 66666660px;
+}
+.cabeI img{
+    width: 50%;
 }
