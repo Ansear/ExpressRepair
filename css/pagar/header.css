@@ -41,3 +41,7 @@ header {
     margin-left: 8.75%;
     background-color: #b2b2b2;
 }
+
+.header__div-img {
+    margin-bottom: .75rem;
+}
