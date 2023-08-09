@@ -1,0 +1,70 @@
+.pagar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.pagar__contact {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.pagar__contact-divTxt {
+    text-align: center;
+}
+
+.contact-div__title {
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+
+.contact-div__text {
+    font-weight: 100;
+}
+
+.pagar__contact-Form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contact-form__label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+
+.label-text {
+    margin-bottom: 0.5rem;
+    margin-left: 1.25rem;
+}
+
+.contact-form__label input {
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    border: 2px solid #c6c6c6;
+}
+
+#input--code {
+    width: 140px;
+}
+
+#input--numCont {
+    width: 210px;
+}
+
+.label-text--email {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-right: .5rem;
+}
+
+#input--email {
+    width: 250px;
+}
