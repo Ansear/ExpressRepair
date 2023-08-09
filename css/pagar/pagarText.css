@@ -1,0 +1,19 @@
+main {
+    padding: 2rem 11.5rem 0 2rem;
+}
+
+.pagar-text {
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+
+.pagar__title {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.pagar__text {
+    width: 530px;
+    text-align: center;
+}
