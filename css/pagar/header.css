@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    padding: 3rem 2rem 0;
+    align-items: center;
+}
+
+.header__div-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__nav-title {
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+
+.header__nav-logo {
+    width: 148px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: black;
+    font-weight: 200;
+}
+
+.hr-header {
+    width: 75%;
+    height: 1px;
+    margin-top: 0;
+    padding-right: 2rem;
+    margin-left: 8.75%;
+    background-color: #b2b2b2;
+}
