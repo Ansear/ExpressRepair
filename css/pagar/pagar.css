@@ -1,7 +1,7 @@
 .pagar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    padding: 0 2rem;
 }
 
 .pagar__contact {
@@ -9,8 +9,6 @@
     flex-direction: column;
     padding: 1rem;
     background-color: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .pagar__contact-divTxt {
@@ -23,6 +21,8 @@
 }
 
 .contact-div__text {
+    width: 350px;
+    margin: 0 auto;
     font-weight: 100;
 }
 
@@ -35,8 +35,6 @@
 }
 
 .contact-form__label {
-    display: flex;
-    flex-direction: column;
     font-weight: 100;
 }
 
@@ -46,7 +44,7 @@
 }
 
 .contact-form__label input {
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     border: 2px solid #c6c6c6;
 }
@@ -67,4 +65,132 @@
 
 #input--email {
     width: 250px;
+}
+
+.pagar__payment {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.payment-method__title {
+    text-align: center;
+}
+
+.payment-method__div-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.div-img__div {
+    border: none;
+    outline: 0px;
+    border-radius: 20px;
+    padding: 0.5rem .65rem;
+    display: flex;
+    align-items: center;
+}
+
+.div-img__div:hover {
+    cursor: pointer;
+}
+
+.div-img__div:focus {
+    background-color: #0050f5;
+}
+
+.pagar__payment-form {
+    margin-top: 2rem;
+    font-weight: 100;
+    padding: 0 4rem;
+}
+
+.pagar__payment-form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#num-card {
+    width: 416px;
+}
+
+#cvv {
+    width: 100px
+}
+
+.payment-form__label input{
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    border: 2px solid #c6c6c6;
+}
+
+.payment-form__label div {
+    padding: .5rem 1rem;
+    display: flex;
+    gap: .75rem;
+    border-radius: 2rem;
+    border: 2px solid #c6c6c6;
+}
+
+#calendar-input {
+    padding: 0;
+    border: none;
+    width: 130px;
+}
+
+.pagar__order {
+    display: grid;
+    place-items: center;
+}
+
+
+.pagar__order-div {
+    padding: 1rem;
+}
+
+.div__info-product {
+    display: flex;
+    gap: 2rem;
+    font-weight: 300;
+}
+
+.div-amount__divTxt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-div__totalAmount {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.div__info-date, .div-amount__divTxt {
+    font-size: .95rem;
+    font-weight: 100;
+}
+
+.order-divSubmit__text {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.pagar__order-divSubmit {
+    display: grid;
+    place-items: center;
+}
+
+.order-divSubmit__btn {
+    padding: 1.313rem 3.75rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: #0050f5;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
 }

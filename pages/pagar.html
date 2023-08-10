@@ -64,60 +64,73 @@
                     </label>
                 </form>
             </div>
-            <div>
-                <div>
-                    <h2>Métodos de pago disponible</h2>
-                    <div>
-                        <img src="../assets/images/Icon metro-visa.png" alt="">
-                        <img src="../assets/images/Icon metro-mastercard.png" alt="">
-                        <img src="../assets/images/Icon payment-american-express.png" alt="">
+            <div class="pagar__payment">
+                <div class="pagar__payment-method">
+                    <h2 class="payment-method__title">Métodos de pago disponible</h2>
+                    <div class="payment-method__div-img">
+                        <button class="div-img__div" type="submit" aria-checked="true">
+                            <img class="div-img__imgs" src="../assets/images/Icon metro-visa.svg" alt="">
+                        </button>
+                        <button class="div-img__div">
+                            <img class="div-img__imgs" src="../assets/images/Icon metro-mastercard.png" alt="">
+                        </button>
+                        <button class="div-img__div">
+                            <img class="div-img__imgs" src="../assets/images/Icon payment-american-express.png" alt="">
+                        </button>
                     </div>
                 </div>
-                <form action="">
-                    <label for="">Número de tarjeta
-                        <input type="text">
+                <form class="pagar__payment-form">
+                    <label class="payment-form__label" for="">
+                        <p class="label-text">Número de tarjeta</p>
+                        <input id="num-card" type="text">
                     </label>
-                    <label for="">CVV
-                        <input type="text">
-                    </label>
-                    <label for="">Fecha de expiración
-                        <span>
-                            <img src="../assets/images/Icon awesome-calendar-alt.png" alt="">
-                        </span>
-                    </label>
+                    <div>
+                        <label class="payment-form__label" for="">
+                            <p class="label-text">CVV</p>
+                            <input id="cvv" type="text">
+                        </label>
+                        <label class="payment-form__label" for="">
+                            <p class="label-text">Fecha de expiración</p>
+                            <div>
+                                <img src="../assets/images/Icon awesome-calendar-alt.png" alt="">
+                                <input type="text" id="calendar-input">
+                            </div>
+                        </label>
+                    </div>
                 </form>
             </div>
-            <div>
-                <div>
-                    <h2>Tu Orden</h2>
+            <div class="pagar__order">
+                <div class="pagar__order-div">
+                    <h2 class="order-div__title">Tu Orden</h2>
                     <hr>
-                    <div>
-                        <p>Viernes 23 de Abril del 2021, 6:00 PM</p>
-                        <div>
-                            <p>1x Cambio de Pantalla iPhone X</p>
-                            <p>$600,000 COP</p>
+                    <div class="order-div__info">
+                        <p class="div__info-date">Viernes 23 de Abril del 2021, 6:00 PM</p>
+                        <div class="div__info-product">
+                            <p class="info-procut__text">1x Cambio de Pantalla iPhone X</p>
+                            <p class="info-procut__text">$600,000 COP</p>
                         </div>
                     </div>
                     <hr>
-                    <div>
-                        <div>
-                            <p>Subtotal</p>
-                            <p>$486,000 COP</p>
+                    <div class="order-div__amount">
+                        <div class="div-amount__divTxt">
+                            <p class="divTxt__txt">Subtotal</p>
+                            <p class="divTxt__txt">$486,000 COP</p>
                         </div>
-                        <div>
-                            <p>IVA (19%)</p>
-                            <p>$114,000 COP</p>
+                        <div class="div-amount__divTxt">
+                            <p class="divTxt__txt">IVA (19%)</p>
+                            <p class="divTxt__txt">$114,000 COP</p>
                         </div>
                     </div>
                     <hr>
-                    <div>
-                        <p>Total</p>
-                        <p>$600,000 COP</p>
+                    <div class="order-div__totalAmount">
+                        <p class="totalAmount__txt">Total</p>
+                        <p class="totalAmount__txt">$600,000 COP</p>
                     </div>
                 </div>
-                <div>
-                    <p>Recuerda que el sistema hará una retención del dinero, donde se liberará solamente cuando la reparación este totalmente realizada</p>
-                    <button>Continuar</button>
+                <div class="pagar__order-divSubmit">
+                    <p class="order-divSubmit__text">Recuerda que el sistema hará una retención del dinero, donde se liberará solamente <br>cuando la
+                        reparación este totalmente realizada</p>
+                    <button class="order-divSubmit__btn">Continuar</button>
                 </div>
             </div>
         </section>

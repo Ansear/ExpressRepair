@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+}
+
+main  {
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.5rem;
+
+}
+
+button {
+    padding: 1.313rem 3.75rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: #0050f5;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
