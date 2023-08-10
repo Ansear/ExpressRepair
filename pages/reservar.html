@@ -24,14 +24,14 @@
     </header>
     <hr class="hr-header">
     <main>
-        <div class="cabeza">
+        <section class="cabeza">
             <div class="cabeI">   
                 <img src="../assets/images/Icon awesome-calendar-check.png" alt="calendar">
             </div>
             <h2>Reservar</h2>
             <p>Por favor llena los datos siguientes</p>
-        </div>
-        <div class="container">
+        </section>
+        <section class="container">
             <div class="containerCard1">
                 <div class="headCard">
                     <h2>¿Qué dispositivo tienes?</h2>
@@ -53,14 +53,23 @@
                     </div>
                 </div>
                 <div class="footerHe">
-                    <label for="model">¿Qué modelo tienes?</label>
-                    <input type="text" id="model" placeholder="Iphone X">
-                    
-                    <label for="serial">Ingresa el número de serial</label>
-                    <input type="text" placeholder="F2MTT6FGHCL8" id="serial">
+                    <div class="model">
+                        <p>¿Qué modelo tienes?</p>
+                            <select class="input-icono">
+                                <option value="Iphone X" selected>Iphone X</option>
+                                <option value="Iphone 11">Iphone 11</option>
+                                <option value="Iphone 11 Pro">Iphone 11 Pro</option>
+                                <option value="Iphone 12">Iphone 12</option>
+                                <option value="Iphone 12 Pro">Iphone 12 Pro</option>
+                            </select>
+                    </div>
+                    <div class="serial">
+                        <label for="serial">Ingresa el número de serial</label>
+                        <input type="text" placeholder="F2MTT6FGHCL8" id="serial">
+                    </div>
                 </div>
             </div>
-            <div class="containerCard2">
+            <div class="containerCard1">
                 <div class="headCard">
                     <h2>¿Qué Servicio Deseas?</h2>
                     <div class="subHead">
@@ -82,17 +91,20 @@
                     
                 </div>
                 <div  class="footerHe">
-                    <label for="dire">Dirección</label>
-                    <input type="text" id="dire">
-                    
-                    <label for="feR">Fecha de reparación</label>
-                    <input type="text" id="feR">
+                    <div class="serial  ">
+                        <label for="dire" >Dirección</label>
+                        <input type="text" id="dire" class="img-icon">
+                    </div>
+                    <div class="serial">
+                        <label for="feR" >Fecha de reparación</label>
+                        <input type="date" id="feR" class="img-icon" value="0000-00-00">
+                    </div>
                 </div>
             </div>
-            <div>
+            <div class="btnC">
                 <a href=""><button>Continuar</button></a>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>
