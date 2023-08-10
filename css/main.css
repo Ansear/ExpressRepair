@@ -1,15 +1,8 @@
 @font-face {
-    font-family: MyriadProLight;
+    font-family: MyriadPro;
     src: url(../assets/fonts/MyriadPro-Light.otf);
 }
-@font-face {
-    font-family: MyriadPro;
-    src: url(../assets/fonts/MYRIADPRO-REGULAR.OTF);
-}
-@font-face {
-    font-family: MyriadProBold;
-    src: url(../assets/fonts/MYRIADPRO-BOLD.OTF);
-}
+
 *{
     font-family: MyriadPro;
 }
