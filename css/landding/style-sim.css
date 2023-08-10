@@ -1,0 +1,24 @@
+.sim{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+
+}
+.sim img{
+    size: cover;
+    margin-top: -160px;
+    width:100%;
+    height: 1204px;
+}
+.t1{
+    z-index: 2;
+    font-size: 30px;
+
+}
+.t2{
+    z-index: 2;
+
+    margin-top: -1.3rem;
+}

@@ -1,13 +1,14 @@
 
 .pos-0{
+    size: cover;
     display: grid;
-    margin-top: 140px;
+    margin-top: 250px;
     height: fit-content;
     place-content: center;
 }
 
 .big-box{
-
+    size: cover;
     height: fit-content;
     width: fit-content;
     display: grid;
@@ -34,24 +35,28 @@
     font-size: 30px;
 }
 .g-2{
+    size: cover;
     align-items: center;
     text-align: center;
     grid-area: b;
 
 }
 .g-3{
+    size: cover;
     align-items: center;
     text-align: center;
     grid-area: c;
 
 }
 .g-4{
+    size: cover;
     align-items: center;
     text-align: center;
     grid-area: d;
 
 }
 .g-5{
+    size: cover;
     display: grid;
     margin-top: -12rem;
     place-content: center;

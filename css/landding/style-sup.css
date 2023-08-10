@@ -1,14 +1,15 @@
 .mundo{
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    margin-left:-3%;
+    margin-top: -2%;
 }
 .sup-0{
+
+    height: 100vh;
+
     display: flex;
     margin-top: 4rem;
     margin-left: 2rem;
-
-    gap: 0px;
+    max-width: 80%;
     height: 600px;
 }
 
@@ -63,6 +64,7 @@
 
 
 .img-1{
+
     grid-area: f;
     display: flex;
     justify-content: center;
@@ -84,7 +86,7 @@
 
 .sup-2 img{
     z-index: 0;
-    margin-left: -29rem;
+    margin-left: -24.8rem;
     width: 1517px;
     margin-top: -4rem;
     height: 1000px;

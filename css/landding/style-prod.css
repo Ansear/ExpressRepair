@@ -1,0 +1,68 @@
+.prod{
+
+    width: 90%;
+    margin-left: 5%;
+    height: max-content;
+    margin-top: 100px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'a a a'
+    'b c d'
+    'b c d'
+    'e e e';
+    gap: 2px;
+}
+
+.ere{
+    font-weight:1;
+    font-size: 14px;
+}
+.po{
+    font-size: 40px;
+}
+.po1{
+    margin-top: -10px;
+    font-size: 30px;
+}
+.txt-1{
+    display: grid;
+    place-content:center ;
+grid-area: a;
+place-content: center;
+text-align: center;
+}
+
+.a1-box{
+    grid-area: b;
+    text-align: center;
+}
+
+.a2-box{
+    display: grid;
+    place-content:center ;
+    text-align: center;
+    grid-area: c;
+}
+
+.a2-box img{
+    height: 500px;
+}
+
+.a3-box
+{
+    display: grid;
+    place-content:center ;
+    text-align: center;
+    grid-area: d;
+}
+
+.nom{
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+    grid-area: e;
+    text-align: center;
+}

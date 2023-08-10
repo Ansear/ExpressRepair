@@ -1,0 +1,51 @@
+.cost{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.txt{
+    text-align: center;
+}
+.g1{
+    font-size: 50px;
+
+}
+
+.g2{
+    font-size: 30px;
+}
+
+.prc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+.pbox-2{
+    margin-top: 3rem;
+}
+.prc-box{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prc-box img{
+    height: 300px;
+    width: 200px;
+}
+.x{
+    height: 300px;
+    width: 300px;
+}
+.precio{
+    font-size: 30px;
+    margin-top: -1rem;
+}
+.in{
+    font-size: 40px;
+}

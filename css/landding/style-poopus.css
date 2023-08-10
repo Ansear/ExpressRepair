@@ -1,0 +1,245 @@
+.line-span {
+
+    width: 450px;
+    border-bottom: 1px solid black; 
+}
+ .container-modal{
+    position: fixed;
+    font-family: "MyriadPro";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    font-family:"MyriadPro";
+ }
+
+ .container-modal:target{
+    opacity:1;
+    pointer-events: auto;
+ }
+
+ .poopup{
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px ;
+    background-color: #fff;
+    height: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 30px;
+
+ }
+
+.foot img{
+    align-items: center;
+    height: 42px;
+    width: 42px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#go,#app {
+    margin-top: 7px;
+    height: 28px;
+    width: 28px;
+}
+
+.s-1{
+    margin-top: -20px;
+    display: flex;
+    align-content: center;
+}
+
+.butn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-0 ,.btn-1{
+    width: 80px;
+}
+.btn-1{
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+
+}
+
+.a-1{
+
+    display: flex;
+    flex-direction: column;
+}
+.a-2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poopup label{
+    opacity: 70%;
+    font-size: 15px;
+}
+
+.poopup input{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.im-1{
+ 
+    margin-top: 10px;
+    margin-left: 80%;
+}
+
+.icon img{
+    height: 30px;
+    width: 30px;
+}
+.icon {
+    line-height: 25px;
+    position: absolute;
+    right: 60px;
+    text-align: center;
+    top: 15px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+a{
+    color: black;
+}
+.icon:hover {
+    background:  rgb(0, 80, 245);
+    height: auto;
+    width: auto;
+    color:#222;
+    border-radius: 10px;
+}
+
+.modalbox{
+    width: 611px;
+    height: 598px;
+    position: relative;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius:25px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-modal-1{
+    position: fixed;
+    font-family: "MyriadPro";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    font-family:"MyriadPro";
+ }
+
+ .container-modal-1:target{
+    opacity:1;
+    pointer-events: auto;
+ }
+ .poopup_1{
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px ;
+    background-color: #fff;
+    height: 800px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 30px;
+
+ }
+
+ .poopup_1 label{
+    opacity: 70%;
+    font-size: 10px;
+}
+
+.poopup_1 input{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.logo-p img{
+    top: 2em;
+    left: 40%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.poopup_1 label{
+    opacity: 70%;
+    font-size: 15px;
+}
+
+.a-2 img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 433px;
+    margin-left: 20px;
+}
+
+.logo-p p{
+    font-size: 23.5px;
+    font-weight: 200;
+    margin-top: 80px;
+}
