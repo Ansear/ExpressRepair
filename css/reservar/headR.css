@@ -1,6 +1,9 @@
-/* main{
-    width: ;
-} */
+*{
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
 .cabeza{
     margin-top: 40px;
     display: flex;
@@ -28,49 +31,102 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr .5fr;
 }
-.containerCard{
+.containerCard1{
+    grid-column: 1;
     border:solid 1px;
     text-align: center;
 }
+.containerCard2{
+    grid-column: 2;
+}
 .headCard{
     border:solid 1px;
-
 }
-.subHead div:first-child{
+.subHead{
     display: grid;
-    grid-template-columns:repeat(5,1fr) ;
-    align-items: center;
     justify-items: center;
-    column-gap: 10px;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border:solid 1px;
 }
 .la{
     width: 30px;
-}
-.mac{
-    width: 90px;
-}
-
-.iphone{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 20px;
-    width: 50px;
-    background-color: #0050f5;
-}
-.iphone img{
-    width: 100%;
-}
-.ipad {
-    width: 50px;
+    grid-row: 1/3;
 }
 .ra{
     width: 30px;
+    grid-row: 1/3;
 }
 
-.subHead div:last-child{
-    border:solid 1px;
-    display: flex;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(5, 1fr);
+.mac{
+    grid-row: 1/3;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    height: 100%;
+}
+.mac img{
+    width: 70%;
+    grid-row: 1/3;
+    align-self: flex-end;
+}
+.iphone{
+    grid-row: 1/3;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #0050f5;
+    color:white;
+}
+.iphone img{
+    width: 70%;
+    grid-row: 1;
+    align-self: flex-end;
+    justify-self: center;
+}
+.iphone p{
+    margin: 16px 0px 0px 0px;
+    padding: 0;
+    grid-row: 2;
+    align-self:center;
+}
+.ipad {
+    grid-row: 1/3;
+    width: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2,1fr);
+    height: 100%;
+}
+.ipad img{
+    grid-row: 1/2;
+    align-self: flex-end;
+    width: 100%;
+}
+.ipad p{
+    grid-row: 2;
+    align-self: center;
+}
+
+
+.bateria{
+    width: 100px;
+}
+.bateria img{
+    width: 100%;
+}
+.pantalla{
+    background-color: #0050f5;
+    width: 150px;
+}
+.pantalla img{
+    width: 100%;
 }
