@@ -239,12 +239,19 @@
 
     .pagar__payment {
         padding: 0;
+        display: grid;
+        place-items: center;
     }
 
     .pagar__payment-form {
         padding: 0;
         flex-direction: column;
         margin-top: 1rem;
+        max-width: 600px;
+        width: auto;
+    }
+    .pagar__payment-form div {
+        gap: 1rem;
     }
 
     #num-card {
