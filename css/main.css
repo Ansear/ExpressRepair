@@ -1,8 +1,8 @@
 @font-face {
-    font-family:Kollek;
+    font-family: Kollek;
     src: url(../assets/fonts/Kollektif.ttf);
 }
 
 *{
-    font-family: kollek;
+    font-family: Kollek;
 }

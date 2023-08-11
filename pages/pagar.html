@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/pagar/header.css">
+    <link rel="stylesheet" href="../css/pagar/pagarText.css">
+    <link rel="stylesheet" href="../css/pagar/pagar.css">
+    <script src="https://kit.fontawesome.com/a2c1018b08.js" crossorigin="anonymous" defer></script>
+    <title>Repair Express - Pagar</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__div-nav">
+            <nav class="header__nav">
+                <h2 class="header__nav-title">Menú Principal</h2>
+                <img src="../assets/images/logo.png" alt="" class="header__nav-logo">
+                <a href="" class="header__nav-link">Repair Express ID</a>
+            </nav>
+        </div>
+        <div class="header__div-img">
+            <img src="../assets/images/Imagen 3.png" alt="" class="header__img">
+        </div>
+    </header>
+    <hr class="hr-header">
+
+    <main>
+        <div class="pagar-text">
+            <img src="../assets/images/Trazado 86.png" alt="" class="pagar__icon">
+            <h1 class="pagar__title">Pagar</h1>
+            <p class="pagar__text">Llena tus datos de facturación. Si ya los tienes registrado en tu Repair ID el
+                sistema los ingresará automáticamente.</p>
+        </div>
+        <section class="pagar">
+            <div class="pagar__contact">
+                <div class="pagar__contact-divTxt">
+                    <h2 class="contact-div__title">Contacto de Facturación</h2>
+                    <p class="contact-div__text">Si lo tienes registrado en tu Repair ID el sistema los llenará
+                        automáticamente</p>
+                </div>
+                <form class="pagar__contact-Form">
+                    <label class="contact-form__label" for="">
+                        <p class="label-text">Primer Nombre</p>
+                        <input type="text">
+                    </label>
+                    <label class="contact-form__label" for="">
+                        <p class="label-text">Segundo Nombre</p>
+                        <input type="text">
+                    </label>
+                    <label class="contact-form__label" for="">
+                        <p class="label-text">Código de Área</p>
+                        <input id="input--code" type="text">
+                    </label>
+                    <label class="contact-form__label" for="">
+                        <p class="label-text">Número de Contacto</p>
+                        <input id="input--numCont" type="text">
+                    </label>
+                    <label class="contact-form__label" for="">
+                        <p class="label-text--email">Correo Electrónico</p>
+                        <input id="input--email" type="text">
+                    </label>
+                </form>
+            </div>
+            <div class="pagar__payment">
+                <div class="pagar__payment-method">
+                    <h2 class="payment-method__title">Métodos de pago disponible</h2>
+                    <div class="payment-method__div-img">
+                        <button class="div-img__div" type="submit" aria-checked="true">
+                            <i class="fa-brands fa-cc-visa fa-3x"></i>
+                        </button>
+                        <button class="div-img__div">
+                            <i class="fa-brands fa-cc-mastercard fa-3x"></i>                        
+                        </button>
+                        <button class="div-img__div">
+                            <i class="fa-brands fa-cc-amex fa-3x"></i>
+                        </button>
+                    </div>
+                </div>
+                <form class="pagar__payment-form">
+                    <label class="payment-form__label" for="">
+                        <p class="label-text">Número de tarjeta</p>
+                        <input id="num-card" type="text">
+                    </label>
+                    <div>
+                        <label class="payment-form__label" for="">
+                            <p class="label-text">CVV</p>
+                            <input id="cvv" type="text">
+                        </label>
+                        <label class="payment-form__label" for="">
+                            <p class="label-text">Fecha de expiración</p>
+                            <div>
+                                <img src="../assets/images/Icon awesome-calendar-alt.png" alt="">
+                                <input type="text" id="calendar-input">
+                            </div>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="pagar__order">
+                <div class="pagar__order-div">
+                    <h2 class="order-div__title">Tu Orden</h2>
+                    <hr>
+                    <div class="order-div__info">
+                        <p class="div__info-date">Viernes 23 de Abril del 2021, 6:00 PM</p>
+                        <div class="div__info-product">
+                            <p class="info-procut__text">1x Cambio de Pantalla iPhone X</p>
+                            <p class="info-procut__text">$600,000 COP</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="order-div__amount">
+                        <div class="div-amount__divTxt">
+                            <p class="divTxt__txt">Subtotal</p>
+                            <p class="divTxt__txt">$486,000 COP</p>
+                        </div>
+                        <div class="div-amount__divTxt">
+                            <p class="divTxt__txt">IVA (19%)</p>
+                            <p class="divTxt__txt">$114,000 COP</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="order-div__totalAmount">
+                        <p class="totalAmount__txt">Total</p>
+                        <p class="totalAmount__txt">$600,000 COP</p>
+                    </div>
+                </div>
+                <div class="pagar__order-divSubmit">
+                    <p class="order-divSubmit__text">Recuerda que el sistema hará una retención del dinero, donde se liberará solamente <br>cuando la
+                        reparación este totalmente realizada</p>
+                    <a href="" class="order-divSubmit__btn">Continuar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

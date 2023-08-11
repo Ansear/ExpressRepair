@@ -1,0 +1,264 @@
+.pagar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 2rem;
+}
+
+.pagar__contact {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.pagar__contact-divTxt {
+    text-align: center;
+}
+
+.contact-div__title {
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+
+.contact-div__text {
+    width: 350px;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.pagar__contact-Form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contact-form__label {
+    font-weight: 100;
+}
+
+.label-text {
+    margin-bottom: 0.5rem;
+    margin-left: 1.25rem;
+}
+
+.contact-form__label input {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 2px solid #c6c6c6;
+}
+
+#input--code {
+    width: 140px;
+}
+
+#input--numCont {
+    width: 210px;
+}
+
+.label-text--email {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-right: .5rem;
+}
+
+#input--email {
+    width: 250px;
+}
+
+.pagar__payment {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.payment-method__title {
+    text-align: center;
+}
+
+.payment-method__div-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.div-img__div {
+    border: none;
+    outline: 0px;
+    border-radius: 20px;
+    padding: 0.5rem .65rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.div-img__div:hover {
+    cursor: pointer;
+}
+
+.div-img__div:focus {
+    background-color: #0050f5;
+    color: #fff;
+}
+
+.pagar__payment-form {
+    margin-top: 2rem;
+    font-weight: 100;
+    padding: 0 4rem;
+}
+
+.pagar__payment-form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#num-card {
+    width: 416px;
+}
+
+#cvv {
+    width: 100px
+}
+
+.payment-form__label input{
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    border: 2px solid #c6c6c6;
+}
+
+.payment-form__label div {
+    padding: .5rem 1rem;
+    display: flex;
+    gap: .75rem;
+    border-radius: 2rem;
+    border: 2px solid #c6c6c6;
+}
+
+#calendar-input {
+    padding: 0;
+    border: none;
+    width: 130px;
+}
+
+.pagar__order {
+    display: grid;
+    place-items: center;
+}
+
+
+.pagar__order-div {
+    padding: 1rem;
+}
+
+.div__info-product {
+    display: flex;
+    gap: 2rem;
+    font-weight: 300;
+}
+
+.div-amount__divTxt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-div__totalAmount {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.div__info-date, .div-amount__divTxt {
+    font-size: .95rem;
+    font-weight: 100;
+}
+
+.order-divSubmit__text {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.pagar__order-divSubmit {
+    display: grid;
+    place-items: center;
+}
+
+.order-divSubmit__btn {
+    padding: 1.313rem 3.75rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: #0050f5;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.order-divSubmit__btn:hover {
+    cursor: pointer;
+    background-color: #0038c7;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .pagar-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .pagar__text {
+        width: auto;
+    }
+
+    .pagar {
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-div__text {
+        width: auto;
+    }
+
+    .pagar__contact-Form {
+        margin-top: 1rem;
+        gap: .5rem;
+    }
+
+    .pagar__contact {
+        margin-bottom: 2rem;
+    }
+
+    .pagar__payment {
+        padding: 0;
+        display: grid;
+        place-items: center;
+    }
+
+    .pagar__payment-form {
+        padding: 0;
+        flex-direction: column;
+        margin-top: 1rem;
+        max-width: 600px;
+        width: auto;
+    }
+    .pagar__payment-form div {
+        gap: 1rem;
+    }
+
+    #num-card {
+        width: 90%;
+    }
+
+    .pagar__order {
+        margin-bottom: 1.5rem;
+    }
+}
