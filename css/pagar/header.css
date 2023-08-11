@@ -49,3 +49,51 @@ header {
 .header__div-img {
     margin-bottom: .75rem;
 }
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem 1rem 0;
+    }
+
+    .header__div-nav {
+        flex-direction: column;
+    }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+    .header__img {
+        margin-top: 1rem;
+    }
+}
+
+/* @media screen and (max-width: 1024px) {
+    header {
+        padding: 3rem 3rem 0 3rem;
+    }
+
+    .header__nav-logo {
+        width: 100px;
+    }
+
+    .header__nav {
+        justify-content: space-between;
+    }
+
+    .header__nav-link {
+        font-size: 1.5rem;
+    }
+
+    .header__nav-title {
+        font-size: 1.5rem;
+    }
+
+    .hr-header {
+        width: 100%;
+        margin-left: 0;
+    }
+} */

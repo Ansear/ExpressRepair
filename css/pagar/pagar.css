@@ -92,6 +92,7 @@
     padding: 0.5rem .65rem;
     display: flex;
     align-items: center;
+    background-color: #fff;
 }
 
 .div-img__div:hover {
@@ -100,6 +101,7 @@
 
 .div-img__div:focus {
     background-color: #0050f5;
+    color: #fff;
 }
 
 .pagar__payment-form {
@@ -193,4 +195,63 @@
     color: #fff;
     font-weight: 300;
     font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.order-divSubmit__btn:hover {
+    cursor: pointer;
+    background-color: #0038c7;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .pagar-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .pagar__text {
+        width: auto;
+    }
+
+    .pagar {
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-div__text {
+        width: auto;
+    }
+
+    .pagar__contact-Form {
+        margin-top: 1rem;
+        gap: .5rem;
+    }
+
+    .pagar__contact {
+        margin-bottom: 2rem;
+    }
+
+    .pagar__payment {
+        padding: 0;
+    }
+
+    .pagar__payment-form {
+        padding: 0;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    #num-card {
+        width: 90%;
+    }
+
+    .pagar__order {
+        margin-bottom: 1.5rem;
+    }
 }
