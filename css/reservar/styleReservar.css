@@ -1,0 +1,266 @@
+:root{
+    --grayLine:#dcdcdc;
+    --blueH:#0050f5;
+    --grayText:#91bbcc;
+}
+body{
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 40px;
+}
+.cabeza{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabeI{
+    width: 100px;
+    text-align: center;
+}
+.cabeI img{
+    width: 50%;
+}
+.cabeza h2{
+    margin:8px;
+    font-size: 35px;
+}
+.cabeza p{
+    margin:3px;
+    font-size: 18px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /*grid-template-rows: 1fr .5fr;*/
+    column-gap:100px;
+}
+.containerCard1{
+    display: grid;
+    justify-items: center;
+}
+
+.headCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headCard h2{
+    font-size:30px;
+    font-weight: 100;
+}
+.subHead{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 20px;
+    width: 90%;
+}
+.la{
+    width: 30px;
+    grid-row: 1/3;
+    grid-column: 1;
+    cursor: pointer;
+}
+.ra{
+    width: 30px;
+    grid-row: 1/3;
+    grid-column: 5;
+    cursor: pointer;
+}
+
+.mac{
+    grid-row: 1/3;
+    grid-column: 2;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    height: 140px;
+    width: 80px;
+}
+.mac img{
+    width: 80%;
+    grid-row: 1/3;
+    align-self: flex-end;
+}
+.iphone{
+    grid-column: 3;
+    grid-row: 1/3;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    height: 140px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    background-color: var(--blueH);
+    color:white;
+}
+.iphone img{
+    width: 90%;
+    grid-row: 1;
+    align-self: flex-end;
+    justify-self: center;
+}
+.iphone p{
+    padding: 0;
+    grid-row: 2;
+    align-self:center;
+}
+.ipad {
+    grid-column: 4;
+    grid-row: 1/3;
+    width: 80px;
+    display: grid;
+    justify-items: center;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2,1fr);
+    height: 140px;
+}
+.ipad img{
+    grid-row: 1/2;
+    align-self: flex-end;
+    width: 80%;
+}
+.ipad p{
+    grid-row: 2;
+    align-self: center;
+}   
+
+.footerHe{
+    display: grid;
+    row-gap: 20px;
+    padding-left: 15px;
+    width: 90%;
+    color:var(--grayText)
+}
+.model p{
+    text-align: start;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.input-icono {
+    background-color: white;
+    background-image: url('../../assets/images/down-arrow.svg');
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 430px;
+    background-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 95%;
+    padding-left: 15px;
+    border-radius: 30px;
+    border: solid 1px var(--grayLine);
+}
+
+.serial{
+    display: grid;
+    row-gap: 10px;
+    width: 95%; 
+}
+.serial label{
+    text-align: left;
+    margin-left: 15px;
+}
+.serial input{
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: solid 1px var(--grayLine);
+}
+.img-icon{
+    background-color: white;
+    background-image: url('../../assets/images/down-arrow.svg');
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 430px;
+    background-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 30px;
+    border: solid 1px var(--grayLine);
+
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+.bateria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    grid-column: 2;
+    grid-row: 1/3;
+    width: 60px;
+    height: 140px;
+}
+.bateria img{
+    width: 60%;
+}
+.pantalla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-column: 3;
+    grid-row: 1/3;
+    background-color: var(--blueH);
+    border-radius: 15px;
+    width: 100px;
+    height: 140px;
+}
+.pantalla img{
+    width: 100%;
+}
+
+.software{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    grid-column: 4;
+    grid-row: 1/3;
+    width:55px;
+    height: 140px;
+}
+.software img{
+    width: 100%;
+}
+
+.btnC{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.btnC button{
+    color:white;
+    background-color: var(--blueH);
+    padding: 10px 35px;
+    border-radius: 20px;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}

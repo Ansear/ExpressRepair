@@ -1,0 +1,154 @@
+:root{
+    --blueBtn:#0050f5;
+    --redBtn:#f50000;
+    --gray:#7e7a7a;
+}
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 1rem 6rem 0 8rem ;
+}
+p{
+    margin: 0;
+}
+button{
+    background-color: var(--blueBtn);
+    padding: 15px 50px;
+    border-radius: 40px;
+    border:none;
+    font-size: 1.5rem;
+    color:white;
+    cursor: pointer;
+}
+h1{
+    font-size: 1.5em;
+    margin:.3em 0
+}
+h3{
+    font-weight: 100;
+    font-size: 30px;
+}
+.img-header{
+    width: 100%;
+    text-align: center;
+    margin-top: .5rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;    
+}
+.container-card{
+    display: grid;
+    flex-direction: column;
+    align-items: space-between;
+    justify-items: center;
+    text-align: center;
+    margin-top:6rem;
+}
+.img-card{
+width: 400px;
+}
+.img-card img{
+    
+    width: 100%;
+}
+.container-card p{
+    width:400px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.card-p{
+    width: 360px;
+}
+
+.services{  
+    width: 400px;
+    height: fit-content;
+}
+.services-header h2{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.img-services img{
+    width: 100%;
+}
+.container-status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status{
+    display:flex;
+    flex-direction: column;
+    margin: 3px 0px;
+    color:var(--gray);
+}
+.status span{
+    font-size: 12px;
+}
+.reporte button{
+    background-color:var(--redBtn) ;
+    padding: 8px 15px;
+    font-size: .8rem;
+}
+.container-servicio{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-servicio{
+    width: 50px;
+}
+.img-servicio img{
+    width: 70%;
+}
+.servi-text{
+    text-align: center;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.container-title h4{
+    margin: 8px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.container-tecni{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.container-tecni img{
+    width: 70px;
+    
+}
+.info-tecni{
+    font-size: 20px;
+}
+.info-tecni p:last-child{
+    color:var(--gray)
+}
+.container-icon{
+    display: flex;
+    justify-content: center;
+}
+.container-icon img{
+    width: 10%;
+}
+.baja{
+    width: 100%;
+    margin-top: 0rem;
+    display: flex;
+    justify-content: right;
+}
+.baja button{
+    margin-right: 20px;
+    padding:5px 10px;
+    font-size: 1.2rem;
+}

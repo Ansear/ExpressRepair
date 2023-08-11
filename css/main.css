@@ -1,8 +1,8 @@
 @font-face {
-    font-family: Kollek;
-    src: url(../assets/fonts/Kollektif.ttf);
+    font-family: MyriadPro;
+    src: url(../assets/fonts/MyriadPro-Light.otf);
 }
 
 *{
-    font-family: Kollek;
+    font-family: MyriadPro;
 }
